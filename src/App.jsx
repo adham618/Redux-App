@@ -1,7 +1,7 @@
-import './App.css'
-import changeColor from './components/changeColor'
-import Login from './components/Login'
-import Profile from './components/Profile'
+import './App.css';
+import ChangeColor from './components/ChangeColor';
+import Login from './components/Login';
+import Profile from './components/Profile';
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Profile />
       <Login />
-      <changeColor />
+      <ChangeColor />
     </div>
   )
 }
